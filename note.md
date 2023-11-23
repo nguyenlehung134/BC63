@@ -31,6 +31,7 @@ lần sau chỉ cần gõ git push
 git reset . => đưa toàn bộ file đang ở staged changed =>change
 git reset <tên file> => chỉ đưa file ở staged changed =>change
 
+<<<<<<< HEAD
 # branch
 git branch <tên branch> => tạo 1 branch mới
 
@@ -40,5 +41,20 @@ git check out -b <tên branch> => tạo 1 branch mới và nhảy qua branch đ�
 
 git branch -m <tên branch mới> => đổi tên branch
 
+=======
+# git checkout <tên file> => đưa file về trang thái ban đầu
+
+# Xem lịch sử commit:
+git log
+git log --oneline
+=> để exit: nhấn phím Q
+
+# branch
+git branch => liệt kê branch đang có
+git branch <tên branch> => tạo 1 branch mới
+git switch <tên branch> => chuyển qua branch <tên branch>
+git checkout -b <tên branch> => tạo 1 branch mới và nhảy qua branch đó
+git branch -m <tên branch mới> => đổi tên branch
+>>>>>>> feature/Login
 git branch -D <tên branch> => xóa branch
 => đứng ở branch khác mới có thể xóa đc
