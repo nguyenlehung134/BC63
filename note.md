@@ -30,3 +30,15 @@ lần sau chỉ cần gõ git push
 # git reset đưa file đang ở khu vực staged change về lại khu vực changes
 git reset . => đưa toàn bộ file đang ở staged changed =>change
 git reset <tên file> => chỉ đưa file ở staged changed =>change
+
+# branch
+git branch <tên branch> => tạo 1 branch mới
+
+git switch <tên branch> => chuyển qua branch <tên branch>
+
+git check out -b <tên branch> => tạo 1 branch mới và nhảy qua branch đó
+
+git branch -m <tên branch mới> => đổi tên branch
+
+git branch -D <tên branch> => xóa branch
+=> đứng ở branch khác mới có thể xóa đc
